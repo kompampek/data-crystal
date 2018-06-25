@@ -1,7 +1,7 @@
       PROGRAM SnB3
 C     COMPARE 3 DIFFERENT Rmin TARGET FUNCTIONS, SAVE PHASE SETS
       parameter (mp=9000,mt=200000,mp2=18001,mt3=3*mt)
-      character fil*6 
+      character fil*6 ! blha blah
       integer*4 IPR(9,3,3),ih(mp),ik(mp),il(mp),nr(mp)
       integer*4 iseed,MM(0:mp),n0,nm(mt3),M(mp),NN(3,mt)
       real*8 x,y,z,rand
