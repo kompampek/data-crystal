@@ -1,0 +1,26 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section progname="MTZ2VARIOUS" rundate="/Job/SubJob_000/RunDate" runtime="/Job/SubJob_000/RunTime" title="Run of MTZ2VARIOUS on 13/ 9/2017 at 01:10:08">
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="HKLIN" select="/Job/Files/File_001" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+<xrt:section title="Output Files">
+
+<xrt:files>
+<xrt:file key="EXPORT_FILE" select="/Job/Files/File_002" type="other" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

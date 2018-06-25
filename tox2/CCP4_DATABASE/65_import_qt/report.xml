@@ -1,0 +1,14 @@
+<Job>
+<Title>tox2_mtz</Title>
+<SubJob_000>
+<RunDate>10/ 9/2017</RunDate>
+<RunTime>18:47:53</RunTime>
+<KeyText_001>
+WARNING:  DATASETNAME not assigned
+</KeyText_001>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-sf.cif" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-Fo.mtz" />
+</Files>
+</Job>

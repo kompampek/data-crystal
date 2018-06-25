@@ -1,0 +1,24 @@
+<Job>
+<Title>[No title given]</Title>
+<SubJob_000>
+<RunDate>14/ 9/2017</RunDate>
+<RunTime>12:56:10</RunTime>
+<KeyText_001>
+WARNING: Reflections not sorted as H slow, K medium, L fast
+</KeyText_001>
+<Table_001>
+   0.025     342     329    170.41    194.85      0.32     11.24
+   0.075     636     602    207.11    206.42      0.15      9.10
+   0.125     856     780    150.70    148.88      0.14      8.64
+   0.175    1000     923    123.63    123.89      0.13      7.71
+   0.225    1109    1046    107.78    107.57      0.13      7.30
+</Table_001>
+<Table_002>
+</Table_002>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho.pdb" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-fo.mtz" />
+<File_003 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-fo_fc_2A.mtz" />
+</Files>
+</Job>

@@ -1,0 +1,17 @@
+<Job>
+<Title>tox2_Fc_PHIc</Title>
+<SubJob_000>
+<RunDate>10/ 9/2017</RunDate>
+<RunTime>10:21:08</RunTime>
+<KeyText_001>
+WARNING: NAME keyword line incomplete.
+</KeyText_001>
+<KeyText_002>
+WARNING: No crystal/dataset information given for new MTZ file.
+</KeyText_002>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho.pdb" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1ano_FC_PHIc.mtz" />
+</Files>
+</Job>

@@ -1,0 +1,145 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF sftools
+#CCP4I DATE 10 Sep 2017  18:34:49
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 62
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME sftools
+#CCP4I LOG_FILE 62_sftools.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+APPLY_SELECT              0
+ASYM_UNIT                 CCP4
+CELL_A                    ""
+CELL_ALPHA                ""
+CELL_B                    ""
+CELL_BETA                 ""
+CELL_C                    ""
+CELL_GAMMA                ""
+CTYPIN,0                  ""
+DANO                      DANO
+DCELL_1,0                 ""
+DCELL_1,1                 ""
+DCELL_2,0                 ""
+DCELL_2,1                 ""
+DCELL_3,0                 ""
+DCELL_3,1                 ""
+DCELL_4,0                 ""
+DCELL_4,1                 ""
+DCELL_5,0                 ""
+DCELL_5,1                 ""
+DCELL_6,0                 ""
+DCELL_6,1                 ""
+DEL_COL_LABEL,0           ""
+DEL_MTZ_LABEL,0           Unassigned
+DEL_MTZ_LABEL,1           Unassigned
+DIRECTION                 UP
+DIR_HKLIN                 tox2
+DIR_HKLOUT                tox2
+DNAME,0                   ""
+DNAME,1                   ""
+DWAVE,0                   ""
+DWAVE,1                   ""
+DXNAME,0                  ""
+DXNAME,1                  ""
+EXPAND_SPACEGP_NUM        19
+FMINUS                    Unassigned
+FORMAT_IN                 MTZ
+FORMAT_OUT                MTZ
+FPLUS                     Unassigned
+HKLIN                     1aho_Fc_PHIc_P212121.mtz
+HKLOUT                    1aho_Fc_PHIc_P212121_sftools1.mtz
+HL_FOM_COL                ""
+HL_MTZ_FOM                Unassigned
+HL_MTZ_PHASE              Unassigned
+HL_PHASE_COL              ""
+INPUT_FILES               HKLIN
+I_1                       1
+I_2                       0
+I_3                       0
+I_4                       0
+I_5                       1
+I_6                       0
+I_7                       0
+I_8                       0
+I_9                       1
+LABIN,0                   Unassigned
+LABOUT,0                  ""
+MERGE_MODE                SAFE
+NCOLS_DEL                 1
+NEW_SPACEGROUP            "P 21 21 21"
+NLABIN                    0
+NTITLES                   0
+N_DNAME                   0
+N_SELECT_CRITERIA         1
+N_TNT_COL                 2
+N_XNAME                   0
+OUTPUT_FILES              HKLOUT
+PURGE_MODE                KEEP
+SELECT_COL_1,0            ""
+SELECT_COL_1,1            H
+SELECT_COL_2,0            ""
+SELECT_COL_2,1            Unassigned
+SELECT_COL_OP,0           >
+SELECT_COL_OP,1           >
+SELECT_COL_VAL,0          ""
+SELECT_COL_VAL,1          ""
+SELECT_COMPARE_OP,0       =
+SELECT_COMPARE_OP,1       =
+SELECT_CRITERIA,0         COL
+SELECT_CRITERIA,1         ALL
+SELECT_INDEX_H,0          "+ H"
+SELECT_INDEX_H,1          "+ H"
+SELECT_INDEX_K,0          ""
+SELECT_INDEX_K,1          ""
+SELECT_INDEX_L,0          ""
+SELECT_INDEX_L,1          ""
+SELECT_INDEX_OP,0         =
+SELECT_INDEX_OP,1         =
+SELECT_INDEX_SUM,0        0
+SELECT_INDEX_SUM,1        0
+SELECT_MODE,0             ""
+SELECT_MODE,1             ""
+SELECT_MODE1,0            PLUS
+SELECT_MODE1,1            PLUS
+SELECT_N_FOLD,0           1
+SELECT_N_FOLD,1           1
+SELECT_RESO_MAX,0         ""
+SELECT_RESO_MAX,1         ""
+SELECT_RESO_MIN,0         ""
+SELECT_RESO_MIN,1         ""
+SELECT_RESO_MODE,0        MAX
+SELECT_RESO_MODE,1        MAX
+SET_NEW_CELL              0
+SET_NEW_WAVE              0
+SF_ACTION                 DELETE
+SIGDANO                   SIGDANO
+SIGFMINUS                 Unassigned
+SIGFPLUS                  Unassigned
+SORT_COL                  1
+SORT_INDICES              "h k l"
+SORT_LABEL                H
+SORT_ON                   HKL
+SPACEGROUP_EXP            "'P 21 21 21'"
+TITLE                     "delete columns"
+TITLE_CARD,0              ""
+TNT_COL_1                 1
+TNT_COL_2                 2
+TNT_COL_3                 3
+TNT_COL_4                 4
+TNT_COL_5                 5
+TNT_MTZ_1                 Unassigned
+TNT_MTZ_2                 Unassigned
+TNT_MTZ_3                 Unassigned
+TNT_MTZ_4                 Unassigned
+TNT_MTZ_5                 Unassigned
+XNAME,0                   ""
+XNAME,1                   ""
+

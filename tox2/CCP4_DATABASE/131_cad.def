@@ -1,0 +1,134 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF cad
+#CCP4I DATE 09 Dec 2017  01:01:58
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 131
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME cad
+#CCP4I LOG_FILE 131_cad.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+AUTO_REINDEX              0
+CELL                      0
+CELL_1                    ""
+CELL_2                    ""
+CELL_3                    ""
+CELL_4                    ""
+CELL_5                    ""
+CELL_6                    ""
+CENTRIC                   0
+COPY_FREER                0
+COPY_FREER_LABEL          ""
+COPY_FREER_MTZ            ""
+CTYPIN,0                  H
+CTYPIN,1_1                H
+CTYPIN,1_2                H
+CTYPIN,1_3                H
+CTYPIN,1_4                F
+CTYPIN,2_1                F
+CTYPIN,2_2                P
+DIR_COPY_FREER_MTZ        ""
+DIR_HKLIN,0               ""
+DIR_HKLIN,1               tox2
+DIR_HKLIN,2               tox2
+DIR_HKLOUT                tox2
+EXCLUDE_NODATA            0
+EXCLUDE_RESOLUTION        0
+EXCLUDE_RESOLUTION_MAX    ""
+EXCLUDE_RESOLUTION_MIN    ""
+E_LABEL,1_1               E1
+E_LABEL,1_2               E2
+E_LABEL,1_3               E3
+E_LABEL,1_4               E4
+E_LABEL,2_1               E1
+E_LABEL,2_2               E2
+E_LABEL,0                 ""
+FREER_FILE                2
+HKLIN,0                   ""
+HKLIN,1                   1aho-fo_fc_097.mtz
+HKLIN,2                   1aho_Fc_S_new.mtz
+HKLLIM_1                  ""
+HKLLIM_2                  ""
+HKLLIM_3                  ""
+HKLLIM_4                  ""
+HKLLIM_5                  ""
+HKLLIM_6                  ""
+HKLOUT                    1aho_Fo_Fc_S_PHI_S_new.mtz
+HKL_LIMITS                0
+INCLUDE_COLUMN,1_1        1
+INCLUDE_COLUMN,1_2        1
+INCLUDE_COLUMN,1_3        1
+INCLUDE_COLUMN,1_4        1
+INCLUDE_COLUMN,1_5        0
+INCLUDE_COLUMN,0          1
+INCLUDE_COLUMN,2_1        1
+INCLUDE_COLUMN,2_2        1
+INPUT_FILES               "HKLIN,1 HKLIN,2 "
+INPUT_RESOLUTION,0        0
+INPUT_RESOLUTION,1        0
+INPUT_RESOLUTION,2        0
+INPUT_RESOLUTION_MAX,0    ""
+INPUT_RESOLUTION_MAX,1    0.965
+INPUT_RESOLUTION_MAX,2    1.000
+INPUT_RESOLUTION_MIN,0    ""
+INPUT_RESOLUTION_MIN,1    15.825
+INPUT_RESOLUTION_MIN,2    30.452
+INPUT_SCALE,0             0
+INPUT_SCALE,1             0
+INPUT_SCALE,2             0
+INPUT_SCALE_FACTOR,0      1.0
+INPUT_SCALE_FACTOR,1      1.0
+INPUT_SCALE_FACTOR,2      1.0
+INPUT_SORT_ORDER,0        "H K L"
+INPUT_SORT_ORDER,1        "H K L"
+INPUT_SORT_ORDER,2        ""
+INPUT_SPACE_GROUP,0       ""
+INPUT_SPACE_GROUP,1       "P 21 21 21"
+INPUT_SPACE_GROUP,2       "P 21 21 21"
+KEEP_FREER                0
+KEEP_FREER_LABEL          Unassigned
+LABIN,2_1                 FCalc
+LABIN,2_2                 PHICalc
+LABIN,0                   ""
+LABIN,1_1                 H
+LABIN,1_2                 K
+LABIN,1_3                 L
+LABIN,1_4                 FP
+LABIN_MODE,0              ALL
+LABIN_MODE,1              SELECTED
+LABIN_MODE,2              SELECTED
+LABOUT,1_1                H
+LABOUT,1_2                K
+LABOUT,1_3                L
+LABOUT,1_4                FP
+LABOUT,2_1                FCalc
+LABOUT,2_2                PHICalc
+LABOUT,0                  ""
+MNF_VALUE                 NaN
+MONITOR                   BRIEF
+NFILES                    2
+NLABIN,0                  1
+NLABIN,1                  4
+NLABIN,2                  2
+OUTLIM_MODE               SPACE_GROUP
+OUTLIM_SPACE_GROUP        ""
+OUTPUT_FILES              HKLOUT
+OVERRIDE_SORT_ORDER       0
+OVERRIDE_SPACE_GROUP      0
+REFMONITOR                0
+SORT_ORDER                "H K L"
+SPACE_GROUP               ""
+SYSAB_KEEP                0
+TITLE                     "[No title given]"
+UNIQUEIFY                 0
+UNIQUEIFY_EXTEND          0
+UNIQUEIFY_FREERFRAC       0.05
+UNIQUEIFY_MAXRES          ""
+

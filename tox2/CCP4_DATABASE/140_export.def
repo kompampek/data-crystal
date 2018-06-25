@@ -1,0 +1,104 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF export
+#CCP4I DATE 16 Dec 2017  00:26:12
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 140
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME export
+#CCP4I LOG_FILE 140_export.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+CIF_DATA_NAME             data_1aho-Fo_Fc_Snew
+DIR_EXPORT_FILE           tox2
+DIR_HKLIN                 tox2
+DP                        Unassigned
+DUM1                      FP
+DUM2                      FCalc
+DUM3                      PHICalc
+DUM4                      E
+DUM_COLUMN,0              ""
+DUM_COLUMN,1              H
+DUM_COLUMN,2              K
+DUM_COLUMN,3              L
+DUM_COLUMN,4              FP
+DUM_COLUMN,5              FCalc
+DUM_COLUMN,6              PHICalc
+DUM_COLUMN,7              E
+DUM_FORMAT,0              real
+DUM_FORMAT,1              integer
+DUM_FORMAT,2              integer
+DUM_FORMAT,3              integer
+DUM_FORMAT,4              real
+DUM_FORMAT,5              real
+DUM_FORMAT,6              real
+DUM_FORMAT,7              real
+EXCLUDE_DIFF              0
+EXCLUDE_DIFF_LIMIT        0.0
+EXCLUDE_FPHMAX            0
+EXCLUDE_FPHMAX_MAX        0.0
+EXCLUDE_FPMAX             0
+EXCLUDE_FPMAX_MAX         0.0
+EXCLUDE_FREER             0
+EXCLUDE_FREER_LABEL       Unassigned
+EXCLUDE_FREER_VALUE       0
+EXCLUDE_RESOLUTION        0
+EXCLUDE_RESOLUTION_MAX    0.965
+EXCLUDE_RESOLUTION_MIN    15.825
+EXCLUDE_SIGH              0
+EXCLUDE_SIGH_FACTOR       3.0
+EXCLUDE_SIGP              0
+EXCLUDE_SIGP_FACTOR       3.0
+EXPORT_FILE               1aho-Fo_Fc_097_E.hkl,.HKL,.sca
+FC                        FCalc
+FOM                       Unassigned
+FP                        FCalc
+FPART                     ""
+FPH                       FCalc
+FREE                      Unassigned
+FSQUARED                  0
+Fm                        Unassigned
+Fp                        Unassigned
+HKLIN                     1aho-Fo_Fc_097_E.mtz
+HLA                       Unassigned
+HLB                       Unassigned
+HLC                       Unassigned
+HLD                       Unassigned
+I                         Unassigned
+IDUM1                     H
+IDUM2                     K
+IDUM3                     L
+INPUT_FILES               HKLIN
+ISYM                      ""
+Im                        Unassigned
+Ip                        Unassigned
+LABIN                     " IDUM1 IDUM2 IDUM3 DUM1 DUM2 DUM3 DUM4"
+MISS                      0
+MISS_VALUE                0.0
+MONITOR                   0
+MONITOR_NMON              20
+NCOL                      7
+OUTPUT_FILES              EXPORT_FILE
+OUTPUT_FORMAT             USER
+PHIB                      PHICalc
+PHIC                      PHICalc
+PHIPART                   ""
+SCALE_FACTOR              1.0
+SIGDP                     Unassigned
+SIGFP                     Unassigned
+SIGFPH                    Unassigned
+SIGFm                     Unassigned
+SIGFp                     Unassigned
+SIGI                      Unassigned
+SIGIm                     Unassigned
+SIGIp                     Unassigned
+TITLE                     "[No title given]"
+USER_FORMAT               '(3i4,4F8.2)'
+W                         Unassigned
+

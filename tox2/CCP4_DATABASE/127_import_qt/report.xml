@@ -1,0 +1,31 @@
+<Job>
+<Title>[No title given]</Title>
+<SubJob_000>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:10:56</RunTime>
+</SubJob_000>
+<SubJob_001>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:10:58</RunTime>
+</SubJob_001>
+<SubJob_002>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:11:02</RunTime>
+</SubJob_002>
+<SubJob_003>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:11:04</RunTime>
+</SubJob_003>
+<SubJob_004>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:11:06</RunTime>
+</SubJob_004>
+<SubJob_005>
+<RunDate>11/11/2017</RunDate>
+<RunTime>02:11:09</RunTime>
+</SubJob_005>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-Fo_S_new_E_user.sca" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\check.mtz" />
+</Files>
+</Job>

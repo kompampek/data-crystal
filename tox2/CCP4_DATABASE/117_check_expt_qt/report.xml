@@ -1,0 +1,18 @@
+<Job>
+<Title>[No title given]</Title>
+<SubJob_000>
+<RunDate> 4/11/2017</RunDate>
+<RunTime>01:33:25</RunTime>
+<KeyText_001>
+SFCHECK: a unified set of procedure for evaluating
+   the quality of macromolecular stracture-factor data
+   and their agreement with atomic model.
+   A.A.Vaguine, J.Richelle, S.J.Wodak.
+   Acta Cryst.(1999). D55, 191-205
+</KeyText_001>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho.pdb" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-Fo_Fc_PHIc_P212121_no_scale.mtz" />
+</Files>
+</Job>

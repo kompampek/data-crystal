@@ -1,0 +1,14 @@
+<Job>
+<Title>[No title given]</Title>
+<SubJob_000>
+<RunDate>10/ 9/2017</RunDate>
+<RunTime>13:34:28</RunTime>
+<KeyText_001>
+WARNING:  ** FP but not SIGFP set; wrong unless outputting COMPLEX **
+</KeyText_001>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1ano_Fc_PHIc_P212121.mtz" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1ano_Fc_PHic_P212121_ASCI.hkl,.HKL,.sca" />
+</Files>
+</Job>

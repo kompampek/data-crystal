@@ -1,0 +1,57 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section title="Run">
+
+<xrt:graph>
+
+<xrt:table select="/Job/SubJob_000/Table_001" title="Correlation vs. resolution" type="plain">
+
+<xrt:data title="NSHELL" />
+<xrt:data title="DMIN" />
+<xrt:data title="DMAX" />
+<xrt:data title="RFACT" />
+<xrt:data title="CORREL" />
+<xrt:data title="&lt;F1&gt;" />
+<xrt:data title="&lt;F2&gt;" />
+<xrt:data title="NREF" />
+
+<xrt:plot title="Correlation vs. resolution">
+<plotline colour="auto" xcol="2" ycol="4" />
+</xrt:plot>
+
+<xrt:plot title="R-factor vs. resolution" ymin="0">
+<plotline colour="auto" xcol="2" ycol="3" />
+</xrt:plot>
+
+</xrt:table>
+
+</xrt:graph>
+
+
+<xrt:table folded="true" select="/Job/SubJob_000/Table_001" title="Correlation vs. resolution" type="plain">
+
+<xrt:data title="NSHELL" />
+<xrt:data title="DMIN" />
+<xrt:data title="DMAX" />
+<xrt:data title="RFACT" />
+<xrt:data title="CORREL" />
+<xrt:data title="&lt;F1&gt;" />
+<xrt:data title="&lt;F2&gt;" />
+<xrt:data title="NREF" />
+
+</xrt:table>
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="HKLIN" select="/Job/Files/File_001" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

@@ -1,0 +1,13 @@
+PYTHON C:/CCP4/Python2.7/python.exe
+XRT_GEN C:/CCP4/6.5/share/smartie/qtrgeneric.py
+JOB_ID 58
+PROJECT tox2
+DIR_DEF C:/Users/Bird/CCP4/windows/directories.def
+LOGFILE C:/Users/Bird/Desktop/NRL/tox2/58_export.log
+REP_DIR C:/Users/Bird/Desktop/NRL/tox2/CCP4_DATABASE/58_export_qt
+REP_XRT C:/Users/Bird/Desktop/NRL/tox2/CCP4_DATABASE/58_export_qt/report.xrt
+REP_XML C:/Users/Bird/Desktop/NRL/tox2/CCP4_DATABASE/58_export_qt/report.xml
+STATUS FINISHED
+CLEANUP NO
+RUN_COOT 
+RUN_CCP4MG C:/CCP4/6.5/bin/ccp4mg.bat

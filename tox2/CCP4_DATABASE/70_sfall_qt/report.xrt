@@ -1,0 +1,110 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section progname="SFALL" rundate="/Job/SubJob_000/RunDate" runtime="/Job/SubJob_000/RunTime" title="Run of SFALL on 10/ 9/2017 at 23:27:36">
+
+<xrt:keytext folded="false" name="Warning" select="/Job/SubJob_000/KeyText_001" />
+
+<xrt:graph>
+
+<xrt:table select="/Job/SubJob_000/Table_001" title="Rfactor analysis v resln" type="plain">
+
+<xrt:data title="1/resol^2" />
+<xrt:data title="NO_OF_REF" />
+<xrt:data title="N_POSS" />
+<xrt:data title="&lt;Fobs&gt;" />
+<xrt:data title="&lt;Fc&gt;" />
+<xrt:data title="Rfactor" />
+<xrt:data title="Wdelta**2(Fobs_Scale)" />
+
+<xrt:plot title="&lt;Rfactor&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="5" />
+</xrt:plot>
+
+<xrt:plot title="&lt;Nrefs&gt; and &lt;Nposs&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="1" />
+<plotline colour="auto" xcol="0" ycol="2" />
+</xrt:plot>
+
+<xrt:plot title="&lt;Fobs&gt; and &lt;Fc&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="3" />
+<plotline colour="auto" xcol="0" ycol="4" />
+</xrt:plot>
+
+</xrt:table>
+
+<xrt:table select="/Job/SubJob_000/Table_002" title="Free Rfactor analysis v resln" type="plain">
+
+<xrt:data title="1/resol^2" />
+<xrt:data title="NO_OF_REF" />
+<xrt:data title="N_POSS" />
+<xrt:data title="&lt;Fobs&gt;" />
+<xrt:data title="&lt;Fc&gt;" />
+<xrt:data title="Rfactor" />
+<xrt:data title="Wdelta**2(Fobs_Scale)" />
+
+<xrt:plot title="&lt;Rfactor&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="5" />
+</xrt:plot>
+
+<xrt:plot title="&lt;Nrefs&gt; and &lt;Nposs&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="1" />
+<plotline colour="auto" xcol="0" ycol="2" />
+</xrt:plot>
+
+<xrt:plot title="&lt;Fobs&gt; and &lt;Fc&gt; v. resln  A run of SFALL" ymin="0">
+<plotline colour="auto" xcol="0" ycol="3" />
+<plotline colour="auto" xcol="0" ycol="4" />
+</xrt:plot>
+
+</xrt:table>
+
+</xrt:graph>
+
+
+<xrt:table folded="true" select="/Job/SubJob_000/Table_001" title="Rfactor analysis v resln" type="plain">
+
+<xrt:data title="1/resol^2" />
+<xrt:data title="NO_OF_REF" />
+<xrt:data title="N_POSS" />
+<xrt:data title="&lt;Fobs&gt;" />
+<xrt:data title="&lt;Fc&gt;" />
+<xrt:data title="Rfactor" />
+<xrt:data title="Wdelta**2(Fobs_Scale)" />
+
+</xrt:table>
+
+<xrt:table folded="true" select="/Job/SubJob_000/Table_002" title="Free Rfactor analysis v resln" type="plain">
+
+<xrt:data title="1/resol^2" />
+<xrt:data title="NO_OF_REF" />
+<xrt:data title="N_POSS" />
+<xrt:data title="&lt;Fobs&gt;" />
+<xrt:data title="&lt;Fc&gt;" />
+<xrt:data title="Rfactor" />
+<xrt:data title="Wdelta**2(Fobs_Scale)" />
+
+</xrt:table>
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="XYZIN" select="/Job/Files/File_001" type="xyz" />
+<xrt:file key="HKLIN" select="/Job/Files/File_002" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+<xrt:section title="Output Files">
+
+<xrt:files>
+<xrt:file key="HKLOUT" select="/Job/Files/File_003" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

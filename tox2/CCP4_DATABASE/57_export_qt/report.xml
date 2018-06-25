@@ -1,0 +1,11 @@
+<Job>
+<Title>tox2_ASCII</Title>
+<SubJob_000>
+<RunDate>10/ 9/2017</RunDate>
+<RunTime>14:14:33</RunTime>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1ano_Fc_PHIc_P212121.mtz" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1ano_Fc_PHic_P212121_ASCI.txt" />
+</Files>
+</Job>

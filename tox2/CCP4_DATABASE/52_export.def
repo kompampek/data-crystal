@@ -1,0 +1,83 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF export
+#CCP4I DATE 10 Sep 2017  13:42:46
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 52
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME export
+#CCP4I LOG_FILE 52_export.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+CIF_DATA_NAME             data_1ano_Fc_PHIc_P212121
+DIR_EXPORT_FILE           tox2
+DIR_HKLIN                 tox2
+DP                        Unassigned
+DUM_COLUMN,0              ""
+DUM_FORMAT,0              real
+EXCLUDE_DIFF              0
+EXCLUDE_DIFF_LIMIT        0.0
+EXCLUDE_FPHMAX            0
+EXCLUDE_FPHMAX_MAX        0.0
+EXCLUDE_FPMAX             0
+EXCLUDE_FPMAX_MAX         0.0
+EXCLUDE_FREER             0
+EXCLUDE_FREER_LABEL       Unassigned
+EXCLUDE_FREER_VALUE       0
+EXCLUDE_RESOLUTION        0
+EXCLUDE_RESOLUTION_MAX    1.000
+EXCLUDE_RESOLUTION_MIN    30.452
+EXCLUDE_SIGH              0
+EXCLUDE_SIGH_FACTOR       3.0
+EXCLUDE_SIGP              0
+EXCLUDE_SIGP_FACTOR       3.0
+EXPORT_FILE               1ano_Fc_PHic_P212121_ASCI.hkl,.HKL,.sca
+FC                        Unassigned
+FOM                       Unassigned
+FP                        FCalc
+FPART                     ""
+FPH                       FCalc
+FREE                      Unassigned
+FSQUARED                  0
+Fm                        Unassigned
+Fp                        Unassigned
+HKLIN                     1ano_Fc_PHIc_P212121.mtz
+HLA                       Unassigned
+HLB                       Unassigned
+HLC                       Unassigned
+HLD                       Unassigned
+I                         Unassigned
+INPUT_FILES               HKLIN
+ISYM                      ""
+Im                        Unassigned
+Ip                        Unassigned
+LABIN                     "FP SIGFP FPH SIGFPH FREE DP SIGDP"
+MISS                      0
+MISS_VALUE                0.0
+MONITOR                   0
+MONITOR_NMON              20
+NCOL                      0
+OUTPUT_FILES              EXPORT_FILE
+OUTPUT_FORMAT             USER
+PHIB                      PHICalc
+PHIC                      PHICalc
+PHIPART                   ""
+SCALE_FACTOR              1.0
+SIGDP                     Unassigned
+SIGFP                     Unassigned
+SIGFPH                    Unassigned
+SIGFm                     Unassigned
+SIGFp                     Unassigned
+SIGI                      Unassigned
+SIGIm                     Unassigned
+SIGIp                     Unassigned
+TITLE                     tox2_ASCII
+USER_FORMAT               '(3i4,2F8.2,I4)'
+W                         Unassigned
+

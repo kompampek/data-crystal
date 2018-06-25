@@ -1,0 +1,428 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT LOG sfall
+#CCP4I DATE 03 Nov 2017  01:18:31
+#CCP4I USER 'UNKNOWN'
+#CCP4I PROJECT tox2
+#CCP4I JOB_ID 113
+#CCP4I SCRATCH C:/ccp4temp/
+#CCP4I HOSTNAME Bird-PC
+#CCP4I PID 4476
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.5: SFALL                    version 6.5 :         ##
+ ###############################################################
+ User: Bird  Run date:  3/11/2017 Run time: 01:19:48 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 2011.
+ "Overview of the CCP4 suite and current developments". Acta Cryst. D67, 235-242.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+
+ Memory allocation (logical name, type, elements):
+   MEMSIZE R      5000000
+   MEMSIZE I      5000000
+
+FORMATTED      OLD     file opened on unit  45
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: ATOMSF, Filename: C:\CCP4\6.5\lib\data\atomsf.lib
+<!--SUMMARY_END--></FONT></B>
+
+ Data line--- title [No title given]
+ Data line--- LABIN  FP=FP SIGFP=SIGFP FREE=FREE
+ Data line--- labout    FC=FCalc PHIC=PHICalc
+ Data line--- MODE SFCALC     XYZIN     HKLIN
+ Data line--- noscale
+  Outputting uNscaled file - assigned to FFTHKLSCR
+ Data line--- symmetry 'P 21 21 21'
+Reciprocal space symmetry: 
+Space group: "P 21 21 21" Point group: "PG222" Laue group: "mmm" 
+Reference asymmetric unit: "h>=0 and k>=0 and l>=0" 
+  (change of basis may be applied) 
+
+ Spacegroup 19 "P 21 21 21" 
+ Original indices for reflection hkl with symmetry number ISYM 
+
+                              Bijvoet positive 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   1  +h,+k,+l       3  -h,-k,+l       5  +h,-k,-l       7  -h,+k,-l    
+
+                              Bijvoet negative 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   2  -h,-k,-l       4  +h,+k,-l       6  -h,+k,+l       8  +h,-k,+l    
+ Data line--- badd 0.0
+ Data line--- vdwr 2.5
+ Data line--- end
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: C:/Users/Bird/Desktop/NRL/tox2\1aho-fo.mtz 
+
+ * Title:
+
+ tox2_mtz
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 1
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+        1 tox2
+          tox2
+          Observed_data
+             45.9000   40.7000   30.1000   90.0000   90.0000   90.0000
+             0.00000
+
+ * Number of Columns = 6
+
+ * Number of Reflections = 31001
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FREE FP SIGFP
+
+ * Column Types :
+
+ H H H I F Q
+
+ * Associated datasets :
+
+ 0 0 0 1 1 1
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   45.9000   40.7000   30.1000   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00399    1.07457     (     15.825 -      0.965 A )
+
+ * Sort Order :
+
+      0     0     0     0     0
+
+ * Space group = 'P 21 21 21' (number     19)
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ 
+ $TEXT:Warning: $$ comment $$ 
+ WARNING: Reflections not sorted as H slow, K medium, L fast
+ $$
+<!--SUMMARY_END--></FONT></B>
+  SFALL may fail or give unreliable output later on.
+
+Reciprocal space symmetry: 
+Space group: "P 21 21 21" Point group: "PG222" Laue group: "mmm" 
+Reference asymmetric unit: "h>=0 and k>=0 and l>=0" 
+  (change of basis may be applied) 
+
+ Spacegroup 19 "P 21 21 21" 
+ Original indices for reflection hkl with symmetry number ISYM 
+
+                              Bijvoet positive 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   1  +h,+k,+l       3  -h,-k,+l       5  +h,-k,-l       7  -h,+k,-l    
+
+                              Bijvoet negative 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   2  -h,-k,-l       4  +h,+k,-l       6  -h,+k,+l       8  +h,-k,+l    
+ ***  Calculation symmetry using space-group CalcSpaceGroup   19 ***
+
+  Logical name: XYZIN  File name: C:/Users/Bird/Desktop/NRL/tox2\1aho_S.pdb
+  PDB file is being opened on unit 1 for INPUT.
+
+  MATRICES DERIVED FROM CRYST1 CARD IN COORDINATE FILE
+
+
+             RF                                  RO
+
+    0.022  -0.000  -0.000  -0.000       45.900   0.000   0.000  -0.000
+   -0.000   0.025  -0.000   0.000        0.000  40.700   0.000   0.000
+    0.000  -0.000   0.033  -0.000        0.000   0.000  30.100  -0.000
+   -0.000   0.000  -0.000   1.000       -0.000   0.000  -0.000   1.000
+
+
+
+
+ Form factors used are   
+ AtomName - formfac number -  (AI BI),I=1,NGauss - sum(AI)
+  Default value is 5 term gaussian
+  H       1     0.49300  10.51090     0.32291  26.12570
+                0.14019   3.14236     0.04081  57.79970     0.00304   0.00000     0.99995
+  C       2     2.31000  20.84390     1.02000  10.20750
+                1.58860   0.56870     0.86500  51.65120     0.21560   0.00000     5.99920
+  N       3    12.21260   0.00570     3.13220   9.89330
+                2.01250  28.99750     1.16630   0.58260   -11.52900   0.00000     6.99460
+  O       4     3.04850  13.27710     2.28680   5.70110
+                1.54630   0.32390     0.86700  32.90890     0.25080   0.00000     7.99940
+  S       5     6.90530   1.46790     5.20340  22.21510
+                1.43790   0.25360     1.58630  56.17200     0.86690   0.00000    15.99980
+
+ Title: [No title given]
+
+ Structure Factor Calculation 
+ Structure Factor Calculation to match existing FOBS file  
+      -  Atom file Read ***
+  Reflections excluded if Free R  factor =     0
+
+
+ Chain Names - First Residue - Last Residue - serial Kcount
+
+    INPUT X USED AS  X
+    INPUT Y USED AS  Y
+    INPUT Z USED AS  Z
+  Title 
+    [No title given]
+
+ Unit CELL Parameters are =    45.9000   40.7000   30.1000   90.0000   90.0000   90.0000
+ Space Group Number       =    19
+
+
+
+ Hmin, Kmin, Lmin, Hmax, Kmax, Lmax are     0    0    0   46   41   30
+
+
+ Sampling Intervals NX,NY,NZ are   136  120   88
+
+
+ Map dimensions are  X =     0 to   135 Y =     0 to   119 Z =     0 to    22
+
+
+ Minimum,Maximum 4(SNTH/L)**2 are  0.0040 and  1.0000
+  intervals of s for rfactor analysis are 1./   20
+
+
+ ie  Resolution Limits   15.8 to    1.0 Angstroms
+
+
+ BADD =   0.00
+
+
+ Initial Value of Atom radius in "fc" MAP       2.50
+ This is modified by a factor Sqrt(B+25)/2PI to "spread"  the density for atoms with high B factors
+
+   Weight  Omit       0.00   1000.00
+
+
+ Scale  BfactOverall        1.00      0.00
+ FCALC is scaled by SCALE*exp(-BfactOverall*S/4)
+
+
+ DSmin DSmax       1.00      4.47
+ in refinement overall Scale and B are refined using 
+      reflections with DSMN < = D < = DSmax 
+
+
+
+
+ Reflections for which FOBS < -1.0 SIGMA Omitted
+
+
+ Breset is -1.00
+
+ Limits for atoms:     AXIS    MIN      MAX
+                         1  0.00000  1.00000
+                         2  0.00000  1.00000
+                         3 -0.08306  0.33307
+ 
+ 
+
+ Upper limits are:     AXIS    MIN      MAX
+                         1  0.05447  0.94553
+                         2  0.06143  0.93857
+                         3  0.08306  0.16695
+ 
+ 
+
+
+  First 10 atoms of atsort - orthog coordinates
+       172SG   CYS        12 13.9920 -0.3800 -2.2640 0.55    5.98    5
+   fractional coordinates  0.30484-0.00934-0.07522
+       173SG   CYS        12 13.7000 -2.0260 -1.3790 0.45    8.67    5
+   fractional coordinates  0.29847-0.04978-0.04581
+       237SG   CYS        16  4.3390  8.3440 -5.4010 1.00    5.83    5
+   fractional coordinates  0.09453 0.20501-0.17944
+       315SG   CYS        22  1.3280  6.7280 -4.5820 1.00    5.43    5
+   fractional coordinates  0.02893 0.16531-0.15223
+       369SG   CYS        26 -1.7460  3.9690 -0.2760 1.00    6.29    5
+   fractional coordinates -0.03804 0.09752-0.00917
+       499SG   CYS        36  3.7430 10.2000 -5.9810 1.00    6.26    5
+   fractional coordinates  0.08155 0.25061-0.19870
+  First 10 atoms of sorted file in asym unit -  
+       10.30484   0.99066  -0.07521    105.98 0.55         5   12SG   CYS 
+       10.29848   0.95022  -0.04580    208.67 0.45         5   12SG   CYS 
+       10.96196  10.09752  -0.00916    506.29 1.00         5   26SG   CYS 
+       30.46196   0.40248   0.00917    506.29 1.00         5   26SG   CYS 
+       30.79848  10.54978   0.04581    208.67 0.45         5   12SG   CYS 
+       30.80484  10.50934   0.07522    105.98 0.55         5   12SG   CYS 
+       30.52893   0.33469   0.15223    405.43 1.00         5   22SG   CYS 
+       30.59453  10.29499   0.17944    305.83 1.00         5   16SG   CYS 
+       30.58155   0.24939   0.19870    606.26 1.00         5   36SG   CYS 
+       20.40547   0.79499   0.32056    305.83 1.00         5   16SG   CYS 
+
+  First atom of sorted file in atsort 
+       10.30484   0.99066  -0.07521    105.98    110.55   12SG   CYS 
+ Number of atoms input            =             7
+ Number of atoms in sort          =          13
+ Number in density generation     =     13
+ Number completely within fft box =      1
+     Minimum B =     5.43
+     Maximum B =     9.98
+     Average B =     6.92
+     Number of Bs < BfactReset =        0
+     Number of Bs > 99.99  =        0
+ 
+
+ Number of reflections used  =    28651
+ Number of reflns. on file   =     30987
+ Old value of SCALE is       =         1.000
+ New value of SCALE is       =         2.600
+
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: FFTHKLSCR   Filename: C:\ccp4temp\\sfall_IO4.05532 
+
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: FFTHKLSCR   Filename: C:\ccp4temp\\sfall_IO4.05532 
+
+
+
+  to match FOBS , FC = Scale*Exp(-BfactOverall*SSQ/LL)*FCALC.
+  Old values of SCALE and B overall are     0.2600E+01     0.0000E+00
+
+
+ New values of SCALE and BfactOverall   0.339E+01   0.747E+00 Based on  28306 reflections with s**2 between     0.050 and     1.000
+
+
+  Used values of SCALE and B overall are
+ SCALE      0.3393E+01 B Value      0.7468E+00
+
+ NB:  Number of "possible" reflections is an underestimation - Centrics Kcounted at reduced multiplicity
+
+  $TABLE: Rfactor analysis v resln  :
+ $GRAPHS:<Rfactor> v. resln [No title given]                        :N:1,6:
+:<Nrefs> and <Nposs> v. resln [No title given]                        :N:1,2,3:
+:<Fobs> and <Fc> v. resln [No title given]                        :N:1,4,5:
+ $$
+ 1/resol^2 NO_OF_REF N_POSS <Fobs>   <Fc>      Rfactor   Wdelta**2(Fobs_Scale) $$
+ $$
+   0.025     342     329     47.09     58.34      0.80      6.83
+   0.075     636     602     57.23     43.23      0.58     10.14
+   0.125     856     780     41.64     34.55      0.57      8.97
+   0.175    1000     923     34.16     29.31      0.58      8.62
+   0.225    1109    1046     29.78     25.42      0.57      8.41
+   0.275    1215    1158     23.43     23.39      0.58      7.69
+   0.325    1298    1259     18.66     20.86      0.62      6.88
+   0.375    1392    1352     16.10     18.66      0.62      6.43
+   0.425    1479    1439     14.70     16.78      0.58      5.78
+   0.475    1545    1522     12.44     15.04      0.62      5.59
+   0.525    1613    1600     11.19     13.35      0.61      5.15
+   0.575    1668    1674      9.88     11.49      0.61      4.82
+   0.625    1705    1746      9.34     10.09      0.58      4.43
+   0.675    1792    1814      8.70      9.16      0.57      4.25
+   0.725    1835    1880      8.41      8.03      0.54      4.08
+   0.775    1888    1944      7.71      7.58      0.54      3.78
+   0.825    1838    2006      7.06      6.98      0.55      3.75
+   0.875    1791    2066      6.13      6.42      0.53      3.40
+   0.925    1836    2123      5.44      5.68      0.53      2.97
+   0.975    1813    2181      4.96      5.20      0.53      2.84
+ $$
+ Total no. of reflections used      28651
+
+  Overall Reliability index is    0.5878
+
+  SIGMA W DELTA SQUARED (PII) ABSOLUTE SCALE       0.5650E+07
+
+  $TABLE: Free Rfactor analysis v resln  :
+ $GRAPHS:<Rfactor> v. resln [No title given]                        :N:1,6:
+:<Nrefs> and <Nposs> v. resln [No title given]                        :N:1,2,3:
+:<Fobs> and <Fc> v. resln [No title given]                        :N:1,4,5:
+ $$
+ 1/resol^2 NO_OF_REF N_POSS <Fobs>   <Fc>      Rfactor   Wdelta**2(Fobs_Scale) $$
+ $$
+ $$
+ Total no. of reflections used          0
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: HKLOUT   Filename: C:/ccp4temp\tox2_113_1_mtz.tmp 
+
+ * Title:
+
+ 
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 1
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+        1 tox2
+          tox2
+          Observed_data
+             45.9000   40.7000   30.1000   90.0000   90.0000   90.0000
+             0.00000
+
+ * Number of Columns = 8
+
+ * Number of Reflections = 28651
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FP SIGFP FREE FCalc PHICalc
+
+ * Column Types :
+
+ H H H F Q I F P
+
+ * Associated datasets :
+
+ 0 0 0 1 1 1 1 1
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   45.9000   40.7000   30.1000   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00399    0.99995     (     15.825 -      1.000 A )
+
+ * Sort Order :
+
+      0     0     0     0     0
+
+ * Space group = 'P 21 21 21' (number     19)
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ SFALL:   Normal Termination of structure factor calc.
+Times: User:       0.0s System:    0.0s Elapsed:     0:01  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
+
+#CCP4I TERMINATION STATUS 1 
+#CCP4I TERMINATION TIME 03 Nov 2017  01:19:49
+#CCP4I MESSAGE Task completed successfully
+

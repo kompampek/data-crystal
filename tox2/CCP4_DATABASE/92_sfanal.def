@@ -1,0 +1,40 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF sfanal
+#CCP4I DATE 13 Sep 2017  23:26:45
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 92
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME sfanal
+#CCP4I LOG_FILE 92_sfanal.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+DIR_HKLIN                 tox2
+DIR_HKLOUT                ""
+F1                        FP
+F2                        H
+FORMAT_IN                 MTZ
+FORMAT_OUT                MTZ
+HKLIN                     1aho-fo.mtz
+HKLOUT                    ""
+INPUT_FILES               HKLIN
+MAX_RESOL                 0.965
+MIN_RESOL                 15.825
+NSHELLS                   20
+OUTPUT_FILES              ""
+PHI1                      Unassigned
+PHI2                      Unassigned
+SF_ACTION                 PLOT
+SF_ASUNIT                 CCP4
+SF_COSINE                 DEGREES
+SF_MODE                   NUMBERS
+SF_RESOL                  0
+SF_VERSUS                 RESOL
+TITLE                     "[No title given]"
+

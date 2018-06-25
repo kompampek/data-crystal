@@ -1,0 +1,17 @@
+<Job>
+<Title>[No title given]</Title>
+<SubJob_000>
+<RunDate>15/12/2017</RunDate>
+<RunTime>00:23:30</RunTime>
+<KeyText_001>
+WARNING: NAME keyword line incomplete.
+</KeyText_001>
+<KeyText_002>
+WARNING: No crystal/dataset information given for new MTZ file.
+</KeyText_002>
+</SubJob_000>
+<Files>
+<File_001 path="C:/Users/Bird/Desktop/NRL/tox2\1aho_S.pdb" />
+<File_002 path="C:/Users/Bird/Desktop/NRL/tox2\1aho-Fc_Snew.mtz" />
+</Files>
+</Job>

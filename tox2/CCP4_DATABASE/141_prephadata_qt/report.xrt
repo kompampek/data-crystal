@@ -1,0 +1,66 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section progname="ECALC" rundate="/Job/SubJob_000/RunDate" runtime="/Job/SubJob_000/RunTime" title="Run of ECALC on 16/12/2017 at 00:29:12">
+
+<xrt:keytext folded="false" name="Number and range of reflections" select="/Job/SubJob_000/KeyText_001" />
+
+<xrt:graph>
+
+<xrt:table select="/Job/SubJob_000/Table_001" title="Cumulative distribution of Es" type="plain">
+
+<xrt:data title="E" />
+<xrt:data title="Number&gt;=E" />
+<xrt:data title="Number&lt;E" />
+<xrt:data title="N(E)[All:Obs]" />
+<xrt:data title="N(E)[Cen:Theor]" />
+<xrt:data title="N(E)[Cen:Obs]" />
+<xrt:data title="N(E)[Acen:Theor]" />
+<xrt:data title="N(E)[Acen:Obs]" />
+
+<xrt:plot title="E v Fraction&lt;E; F=FCalc;[No title given]">
+<plotline colour="auto" xcol="0" ycol="4" />
+<plotline colour="auto" xcol="0" ycol="5" />
+<plotline colour="auto" xcol="0" ycol="6" />
+<plotline colour="auto" xcol="0" ycol="7" />
+</xrt:plot>
+
+</xrt:table>
+
+</xrt:graph>
+
+
+<xrt:table folded="true" select="/Job/SubJob_000/Table_001" title="Cumulative distribution of Es" type="plain">
+
+<xrt:data title="E" />
+<xrt:data title="Number&gt;=E" />
+<xrt:data title="Number&lt;E" />
+<xrt:data title="N(E)[All:Obs]" />
+<xrt:data title="N(E)[Cen:Theor]" />
+<xrt:data title="N(E)[Cen:Obs]" />
+<xrt:data title="N(E)[Acen:Theor]" />
+<xrt:data title="N(E)[Acen:Obs]" />
+
+</xrt:table>
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="MTZIN" select="/Job/Files/File_001" type="other" />
+</xrt:files>
+
+</xrt:section>
+
+<xrt:section title="Output Files">
+
+<xrt:files>
+<xrt:file key="MTZOUT" select="/Job/Files/File_002" type="other" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

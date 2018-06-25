@@ -1,0 +1,26 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section progname="cif2mtz" rundate="/Job/SubJob_000/RunDate" runtime="/Job/SubJob_000/RunTime" title="Run of cif2mtz on 13/ 9/2017 at 00:27:25">
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="CIF_INPUT_FILE" select="/Job/Files/File_001" type="other" />
+</xrt:files>
+
+</xrt:section>
+
+<xrt:section title="Output Files">
+
+<xrt:files>
+<xrt:file key="HKLOUT" select="/Job/Files/File_002" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

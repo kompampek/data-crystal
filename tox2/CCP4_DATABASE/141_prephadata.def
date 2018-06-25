@@ -1,0 +1,101 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF prephadata
+#CCP4I DATE 16 Dec 2017  00:29:06
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 141
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME prephadata
+#CCP4I LOG_FILE 141_prephadata.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+DIR_HKLOUT                tox2
+DIR_MTZIN                 tox2
+DIR_MTZOUT                tox2
+DP                        ""
+DPH,0                     ""
+DPH,1                     Unassigned
+ECALC_DPH0                Unassigned
+ECALC_EXCLUDE_CENTRIC     0
+ECALC_EXCLUDE_DIFF        ""
+ECALC_EXCLUDE_FPHMAX      ""
+ECALC_EXCLUDE_FPMAX       ""
+ECALC_EXCLUDE_SIGP        ""
+ECALC_EXCLUDE_SIGPH       ""
+ECALC_FPH                 FP
+ECALC_SIGDPH0             Unassigned
+ECALC_SIGFPH              SIGFP
+EVAL                      ""
+EXCLUDE_DIFF              0
+EXCLUDE_DIFF_LIMIT        0.0
+EXCLUDE_FPHMAX            0
+EXCLUDE_FPHMAX_MAX        0.0
+EXCLUDE_FPMAX             0
+EXCLUDE_FPMAX_MAX         0.0
+EXCLUDE_FREER             0
+EXCLUDE_FREER_LABEL       ""
+EXCLUDE_FREER_VALUE       0
+EXCLUDE_RESOLUTION        0
+EXCLUDE_RESOLUTION_MAX    3.0
+EXCLUDE_RESOLUTION_MIN    15.825
+EXCLUDE_SIGH              0
+EXCLUDE_SIGH_FACTOR       3.0
+EXCLUDE_SIGP              0
+EXCLUDE_SIGP_FACTOR       3.0
+FDPRIME,0                 ""
+FDPRIME,1                 ""
+FP                        FCalc
+FPH,0                     ""
+FPH,1                     FP
+FPHm,0                    ""
+FPHm,1                    FP
+FPHm0                     FP
+FPHp,0                    ""
+FPHp,1                    FP
+FPHp0                     FP
+FPRIME,0                  ""
+FPRIME,1                  ""
+HKLOUT                    1aho-Fo_Fc_Snew.hkl,.HKL,.sca
+IFNORMALISE               1
+IFSHELX                   1
+INPUT_DANA                0
+INPUT_FILES               MTZIN
+LABOUT_PHI                PHASE
+LABOUT_W                  WT
+LAMBDA,0                  ""
+LAMBDA,1                  ""
+MTZIN                     1aho-Fo_Fc_Snew.mtz
+MTZOUT                    1aho-Fo_Fc_Snew_E.mtz
+N_WAVELENGTHS             1
+OUTPUT_FILES              MTZOUT
+PHI                       ""
+RANO                      ""
+REVISE_INPUT              NATIVE
+REVISE_LABIN              "EVAL PHI W"
+REVISE_OUTPUT             RANTAN
+REVISE_RESOLUTION_MAX     0.965
+RISO                      ""
+SIGDP                     ""
+SIGDPH,0                  ""
+SIGDPH,1                  Unassigned
+SIGFP                     Unassigned
+SIGFPH,0                  ""
+SIGFPH,1                  SIGFP
+SIGFPHm,0                 ""
+SIGFPHm,1                 SIGFP
+SIGFPHm0                  SIGFP
+SIGFPHp,0                 ""
+SIGFPHp,1                 SIGFP
+SIGFPHp0                  SIGFP
+SIGM                      ""
+SPACE_GROUP               "'P 21 21 21'"
+TITLE                     "[No title given]"
+USE_REVISE_RESO_CUTOFF    0
+W                         ""
+

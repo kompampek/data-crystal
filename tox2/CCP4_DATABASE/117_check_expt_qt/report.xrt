@@ -1,0 +1,28 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section progname="Sfcheck(ccp4)" rundate="/Job/SubJob_000/RunDate" runtime="/Job/SubJob_000/RunTime" title="Run of Sfcheck(ccp4) on  4/11/2017 at 01:33:25">
+
+<xrt:keytext folded="false" name="Reference1" select="/Job/SubJob_000/KeyText_001" />
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="XYZIN" select="/Job/Files/File_001" type="xyz" />
+<xrt:file key="HKLIN" select="/Job/Files/File_002" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+<xrt:section title="Output Files">
+
+<xrt:files>
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

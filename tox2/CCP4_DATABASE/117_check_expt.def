@@ -1,0 +1,59 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF check_expt
+#CCP4I DATE 04 Nov 2017  01:33:21
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 117
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME check_expt
+#CCP4I LOG_FILE 117_check_expt.log
+#CCP4I EDIT_SCRIPT 1
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+ANALYSIS_FILE             1aho_sfcheck1.ps
+CHAIN_ID                  ""
+COLOUR_PRINTER            "Not Installed"
+DIR_ANALYSIS_FILE         tox2
+DIR_HKLIN                 tox2
+DIR_HKLOUT                tox2
+DIR_PSOUT                 tox2
+DIR_XYZIN                 tox2
+F1                        FP
+F2                        Unassigned
+FREE                      Unassigned
+F_ISO                     F_sfcheckiso
+HKLIN                     1aho-Fo_Fc_PHIc_P212121_no_scale.mtz
+HKLOUT                    1aho-Fo_Fc_PHIc_P212121_no_scale_sfcheck_iso1.mtz
+I1                        Unassigned
+I2                        Unassigned
+INPUT_FILES               "XYZIN HKLIN"
+MONO_PRINTER              "Not Installed"
+OUTPUT_FILES              " ANALYSIS_FILE"
+PRINT_CMD                 "Not Installed"
+PROCHECK_COLOUR           1
+PROCHECK_PRINT            0
+PSOUT                     1aho_rampage1.ps
+RESOLUTION                1.000
+RUN_PROCHECK              0
+RUN_RAMPAGE               0
+RUN_SFCHECK               1
+SFCHECK_ANISOTHERMAL_CORR 0
+SFCHECK_DATA              SF
+SFCHECK_MODE              BOTH
+SIGF1                     SIGFP
+SIGF2                     Unassigned
+SIGF_ISO                  SIGF_sfcheckiso
+SIGI1                     Unassigned
+SIGI2                     Unassigned
+TITLE                     "[No title given]"
+USE_ANISOTHERMAL_CORR     1
+USE_HKLIN                 1
+USE_LABELS                1
+USE_XYZIN                 1
+XYZIN                     1aho.pdb
+

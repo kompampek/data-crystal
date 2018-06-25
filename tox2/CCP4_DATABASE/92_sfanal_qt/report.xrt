@@ -1,0 +1,57 @@
+<report xmlns:xrt="http://www.ccp4.ac.uk/xrt">
+<xrt:results>
+
+<xrt:title select="/Job/Title" />
+<xrt:section title="Run">
+
+<xrt:graph>
+
+<xrt:table select="/Job/SubJob_000/Table_001" title="Generic plot file" type="plain">
+
+<xrt:data title="NSHELL" />
+<xrt:data title="X-MIN" />
+<xrt:data title="X-MAX" />
+<xrt:data title="X-MEAN" />
+<xrt:data title="Y-MEAN" />
+<xrt:data title="NREF" />
+
+<xrt:plot title="X-min  vs. data">
+<plotline colour="auto" xcol="1" ycol="4" />
+</xrt:plot>
+
+<xrt:plot title="X-max  vs. data">
+<plotline colour="auto" xcol="2" ycol="4" />
+</xrt:plot>
+
+<xrt:plot title="X-mean vs. data">
+<plotline colour="auto" xcol="3" ycol="4" />
+</xrt:plot>
+
+</xrt:table>
+
+</xrt:graph>
+
+
+<xrt:table folded="true" select="/Job/SubJob_000/Table_001" title="Generic plot file" type="plain">
+
+<xrt:data title="NSHELL" />
+<xrt:data title="X-MIN" />
+<xrt:data title="X-MAX" />
+<xrt:data title="X-MEAN" />
+<xrt:data title="Y-MEAN" />
+<xrt:data title="NREF" />
+
+</xrt:table>
+
+</xrt:section>
+
+<xrt:section title="Input Files">
+
+<xrt:files>
+<xrt:file key="HKLIN" select="/Job/Files/File_001" type="hkl:hkl" />
+</xrt:files>
+
+</xrt:section>
+
+</xrt:results>
+</report>

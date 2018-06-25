@@ -1,0 +1,65 @@
+#CCP4I VERSION CCP4Interface 6.5.0
+#CCP4I SCRIPT DEF sfall
+#CCP4I DATE 14 Sep 2017  12:56:10
+#CCP4I USER 'UNKNOWN'
+#CCP4I JOB_ID 98
+#CCP4I PROJECT tox2
+#CCP4I TASKNAME sfall
+#CCP4I LOG_FILE 98_sfall.log
+#CCP4I EDIT_SCRIPT 0
+#CCP4I HTML_LOG 0
+#CCP4I REMOTE 0
+#CCP4I SERVER_HOST localhost
+#CCP4I SERVER_PORT 4441
+#CCP4I DATABASE_SERVER 0
+#CCP4I DATABASE_SERVER_HOST localhost
+#CCP4I DATABASE_SERVER_PORT 0
+
+ALLIN                     0
+CELL_1                    45.9000
+CELL_2                    40.7000
+CELL_3                    30.1000
+CELL_4                    90.0000
+CELL_5                    90.0000
+CELL_6                    90.0000
+DIR_HKLIN                 tox2
+DIR_HKLOUT                tox2
+DIR_MAPIN                 tox2
+DIR_XYZIN                 tox2
+FC                        FCalc
+FP                        FP
+FREE                      FREE
+GRID_1                    ""
+GRID_2                    ""
+GRID_3                    ""
+HARVEST_DNAME             ""
+HARVEST_INPUT_NAMES       0
+HARVEST_MODE              PROJECT
+HARVEST_PNAME             tox2
+HARVEST_PRIVATE           0
+HARVEST_RSIZE             80
+HARVEST_XNAME             ""
+HKLIN                     1aho-fo.mtz
+HKLOUT                    1aho-fo_fc_2A.mtz
+IFCELL                    0
+INPUT_FILES               "XYZIN HKLIN"
+LABIN                     "FP SIGFP FREE"
+LABOUT                    "FC PHIC"
+MAPIN                     ""
+OUTPUT_FILES              HKLOUT
+PHIC                      PHICalc
+RESOLUTION_MAX            2.0
+RESOLUTION_MIN            15.825
+SFALL_BADD                0.0
+SFALL_COLUMNS_OUT         FPONLY
+SFALL_MODE                SFCALC
+SFALL_RESOLUTION          1
+SFALL_SFCALC_HKLIN        1
+SFALL_SFCALC_IN           XYZIN
+SFALL_SFCALC_SCALE        0
+SFALL_VDWR                2.5
+SIGFP                     SIGFP
+SPACE_GROUP               "'P 21 21 21'"
+TITLE                     "[No title given]"
+XYZIN                     1aho.pdb
+
