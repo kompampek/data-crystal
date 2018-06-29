@@ -18,9 +18,12 @@ C
    36 FORMAT(2I6,F12.5,A4)
       OPEN(UNIT=1,FILE='sym.dat',STATUS='OLD',FORM='FORMATTED')
       READ(1,1) NEQ,LAUE,ICENT,LAT
+	  write(*,*)NEQ,LAUE,ICENT,LAT  !!YV 
     1 FORMAT(5I5,F5.2,f8.3)
       READ(1,2) SCT
+C	  write(*,*)'SCT==',SCT   !!YV
       READ(1,2) ATMS
+	  write(*,*) 'ATMS==',ATMS         !!YV
     2 FORMAT(16F5.0)
      
       Z2=0.0  !!!YV
@@ -33,6 +36,7 @@ C
 C
       DO 4 I = 1,NEQ
       READ(1,5)T1,HH,HK,HL,T2,KH,KK,KL,T3,LH,LK,LL
+	  write(*,*) 'T1,HH==',T1,HH,HK,HL,T2,KH,KK,KL,T3,LH,LK,LL   !!!YV
     5 FORMAT(3(F10.5,3I5),i5)
       IX=IABS(HH)+IABS(KK)+IABS(LL)
       IY=IABS(HK)+IABS(HL)+IABS(KH)+IABS(KL)+IABS(LH)+IABS(LK)
@@ -68,7 +72,7 @@ C     lattice types are P A B C I F R (obverse hexagonal setting)
       IF(LAT.EQ.5.AND.IX.NE.0) GOTO 21
       IF(LAT.EQ.6.AND.MOD((-IH+IK+IL),3).NE.0) GOTO 21
       E(I)=0.001*NE
-      if(I.lt.50) write(*,*),'E====',E(I)   !!YV
+
       CALL STD(IH,IK,IL,LAUE)
       MAXH=MAX(IH,MAXH)
       MAXK=MAX(IK,MAXK)
@@ -163,7 +167,7 @@ C
       IF(NTYPE.NE.3.AND.NR(K).EQ.13) GOTO 17
       A = A1*E(K)
       IF(A.LT.AMIN) GOTO 17
-      write(*,*)'A,I,J,K,SCALE=====',A,I,J,K,SCALE
+C  write(*,*)'A,I,J,K,SCALE=====',A,I,J,K,SCALE  !!YV
       DO 18 KK=1,NRR(K)
       DO 34 MP=-1,1,2
       IX=IABS(MP*JH(K,KK)-I1)+IABS(MP*JK(K,KK)-I2)+IABS(MP*JL(K,KK)-I3)
