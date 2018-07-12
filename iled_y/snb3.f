@@ -239,7 +239,9 @@ C     CALCULATE Rmin, COSAV, TRIPLES Phase error
       angle = 57.296*angle/a3
       MIST=1
       if(list.ne.0) mist=mod(ncyc,1)*LIST
-      if(mist.EQ.0.) write(*,5)iran,ncyc,Rold,Cosav,angle,axe
+CC!!YV      if(mist.EQ.0.) write(*,5)iran,ncyc,Rold,Cosav,angle,axe
+	   mmcyc=mod(ncyc,50) !!YV 
+       if(mmcyc.EQ.0) write(*,5)iran,ncyc,Rold,Cosav,angle,axe   !!!YV
     5 format(i7,i4,2f7.3,f6.1,f6.1)
       if(angle.lt.ESC) goto 789
    21 CONTINUE 
